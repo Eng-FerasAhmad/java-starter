@@ -1,0 +1,53 @@
+# Java & Gradle
+*.class
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.out
+*.swp
+
+# Gradle specific
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-cache/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code files
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Spring Boot specific
+# Ignore local environment settings
+.env
+.env.*
+
+# Ignore application.properties for sensitive information (optional)
+application.properties
+application.yml
+application-local.yml
+
+# Database files
+*.h2.db
+*.mv.db
+*.sql
+
+# Logs and temp files
+logs/
+*.log
+!keepme
